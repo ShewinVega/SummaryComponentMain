@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <div class="cards">
+        <div id="card1">
+          <p class="w-500" id="head-text">Your Result</p>
+          <div id="score">
+            <h1 class="w-800"><strong>76</strong></h1>
+            <span id="hundred-score" class="w-700"><p>of 100</p></span>
+          </div>
+          <h2 class="w-700">Great</h2>
+          <p class="w-500" id="text-description-score">You scored higher than 65% of <br> the people who have taken <br> these tests.</p>
+        </div>
+        <div id="card2">
+          <p id="summary-text" class="w-800">Summary</p>
+  
+          <div class="subCard2-responsive" id="reaction">
+            <div class="image-container"><img src="./assets/images/icon-reaction.svg" alt="Reaction Image"></div>
+            <p id="reaction-text">Reaction</p>
+            <p><span class="w-700">80</span><span class="w-500 text-color"> / 100</span></p>
+          </div>
+
+          <div class="subCard2-responsive" id="memory">
+            <div class="image-container"><img src="./assets/images/icon-memory.svg" alt="Memory Image"></div>
+            <p id="memory-text">Memory</p>
+            <p><span class="w-700">92</span><span class="w-500 text-color"> / 100</span></p>
+          </div>
+
+          <div class="subCard2-responsive" id="verbal">
+            <div class="image-container"><img src="./assets/images/icon-verbal.svg" alt="Verbal Image"></div>
+            <p id="verbal-text">Verbal</p>
+            <p><span class="w-700">61</span><span class="w-500 text-color"> / 100</span></p>
+          </div>
+
+          <div class="subCard2-responsive" id="visual">
+            <div class="image-container"><img src="./assets/images/icon-visual.svg" alt="Visual Image"></div>
+            <p id="visual-text">Visual</p>
+            <p><span class="w-700">72</span><span class="w-500 text-color"> / 100</span></p>
+          </div>
+  
+          <input type="button" value="Continue" class="w-800 continue-button">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+
+</body>
+</html>
